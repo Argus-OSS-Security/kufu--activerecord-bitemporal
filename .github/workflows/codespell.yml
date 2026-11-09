@@ -1,6 +1,7 @@
 name: CodeSpell
-on:
-  - pull_request
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   - pull_request
 env:
   NPM_CONFIG_IGNORE_SCRIPTS: 'true'
   NPM_CONFIG_BEFORE: ''

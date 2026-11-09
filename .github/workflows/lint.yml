@@ -2,12 +2,13 @@
 
 name: Lint
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+#   pull_request:
+# 
 env:
   NPM_CONFIG_IGNORE_SCRIPTS: 'true'
   NPM_CONFIG_BEFORE: ''
